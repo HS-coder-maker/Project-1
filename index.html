@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+CL:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Restoron</title>
+    <style>
+        .nav-item {
+            padding: 0 5px;
+            justify-content: end;
+           margin-right: 10px;
+           
+        }
+        .nav-link:hover{
+          
+          background-color: orange;
+          
+        }
+        #h1{
+            color: white;
+             text-align: center; 
+             margin-top:60px ;
+             font-weight: bolder;
+             font-size: 60px;
+             margin-left: 20px;
+
+        }
+        
+       
+        #p2{
+            font-family: "playwrite CL", cursive;
+            font-optical-sizing: auto;
+            font-style: normal;
+            color:orange;
+            margin-top: 20px;
+            color: orange;
+            font-size:20px;
+            font-weight:bold;
+            
+
+            
+        }
+        #mainpic{
+           margin-top: 30px;
+           margin-bottom: 30px;
+        }
+        #card1{
+            margin-top: 20px;
+
+        }
+        #h2{
+            font-weight: bolder;
+        }
+        .card-title{
+            margin-top: 10px;
+
+        }
+        #img2{
+            margin-top: 100px;
+            margin-left: 10px;
+        }
+        #img3{
+            margin-bottom: 100px ;
+            margin-left: 115px;
+           
+        }
+        #img4{
+            margin-top: 15px;
+            margin-left: 20px;
+        }
+        #h3{
+            font-weight: 1000;
+            text-align: left;
+            font-size: 30px;
+
+        }
+        .vl {
+       border-left: 6px solid rgb(0, 0, 0);
+       height: 60px;
+       margin-left: 5px;
+    }
+
+     
+#year{
+    margin-right: 500px;
+    margin-bottom: 20px;
+    
+}
+#chefs{
+    margin-right: 500px;
+    margin-bottom: 20px;
+    
+}
+.vl2{
+    
+       border-left: 6px solid rgb(0, 0, 0);
+       height: 60px;
+       margin-left: 5px;
+    }
+    #about{
+        font-family: "playwrite CL", cursive;
+            font-optical-sizing: auto;
+            font-style: normal;
+            color:orange;
+            text-align: left; 
+             margin-top:100px ;
+             font-weight:bold;
+    }
+    #foodmenu{
+        font-family: "playwrite CL", cursive;
+            font-optical-sizing: auto;
+            font-style: normal;
+            color:orange;
+            text-align: center; 
+             margin-top: 50px ;
+             font-weight:bold;
+    }
+    #h4{
+            font-weight: 700;
+            font-size: 30px;
+        }
+    #menu{
+            margin-top: 20px;
+        }
+    #team{
+        font-family: "playwrite CL", cursive;
+            font-optical-sizing: auto;
+            font-style: normal;
+            color:orange;
+            text-align: cenyer; 
+           
+             font-weight:bold;
+            }
+    #reser{
+      font-family: "playwrite CL", cursive;
+            font-optical-sizing: auto;
+            font-style: normal;
+            color:orange;
+            text-align: cenyer; 
+             margin-top:20px ;
+             font-weight:bold;
+    }
+    #booking{
+      font-weight: 700;
+            font-size: 30px;
+            color: aliceblue;
+    }
+    #testi{
+      font-family: "playwrite CL", cursive;
+            font-optical-sizing: auto;
+            font-style: normal;
+            color:orange;
+            text-align: cenyer; 
+             margin-top:20px ;
+             font-weight:bold;
+    }
+    #company{
+      font-family: "playwrite CL", cursive;
+            font-optical-sizing: auto;
+            font-style: normal;
+            color:orange;
+            text-align: cenyer; 
+             margin-top:20px ;
+             font-weight:bold;
+    }
+    #cont{
+      font-family: "playwrite CL", cursive;
+            font-optical-sizing: auto;
+            font-style: normal;
+            color:orange;
+            text-align: cenyer; 
+             margin-top:20px ;
+             font-weight:bold;
+    }
+    #opening{
+      font-family: "playwrite CL", cursive;
+            font-optical-sizing: auto;
+            font-style: normal;
+            color:orange;
+            text-align: cenyer; 
+             margin-top:20px ;
+             font-weight:bold;
+    }
+    #newsletter{
+      font-family: "playwrite CL", cursive;
+            font-optical-sizing: auto;
+            font-style: normal;
+            color:orange;
+            text-align: cenyer; 
+             margin-top:20px ;
+             font-weight:bold;
+    }
+    #footer{
+    background: url(./images/resttttt.jpg); 
+    background-repeat: no-repeat;
+   
+    }
+      
+    </style>
+</head>
+<body>
+
+ <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark sticky-top">
+        
+        <div class="container-fluid">
+
+            <a class="navbar-brand" href="#"  style="color: orange; font-size: 30px;font-weight: bolder; "> <i class="fa-solid fa-utensils" style="color:orange;"></i> Restaurant - 2024
+           </a>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#" style="color: orange; font-weight: bold;">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#" style="color: aliceblue;">ABOUT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#services" style="color: aliceblue;">SERVICES</a>
+                    </li>
+                
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#" style="color: aliceblue;">MENU</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a style="color: aliceblue; font-size: 17px; font-weight: 500;" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          PAGES
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Renting</a></li>
+                          <li><a class="dropdown-item" href="#">Selling</a></li>
+                          
+                        </ul>
+                      </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#" style="color: aliceblue;">CONTACT</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                   
+                    <div><button class="btn" type="submit" style="background-color: orange; color: aliceblue; margin-right: 30px; border-radius: 5px;">BOOK A TABLE</button></div>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HOME page start -->
+
+    <div  class="container-fluid bg-dark text-center">
+        <div class="row">
+            <div data-aos="fade-right" class="col-6 "><h1 id="h1" >Enjoy Our <br>
+
+            Delicious Meal</h1> <br>
+        <p style="color: white; text-align: center; margin-left: 20px;" >Delicious meals are tasty, appetizing, scrumptious, yummy, luscious, delectable, mouth-watering, fit for a king, delightful, lovely, wonderful, pleasant, enjoyable, appealing, enchanting, charming and hihgly pleasant to the taste. You wouldn't call delicious that what is tasteless or unpleasant.</p> 
+        <div><button class="btn" type="submit" style="background-color: orange; color: aliceblue; border-radius: 5px;">BOOK A TABLE</button></div>
+    </div>
+    <div data-aos="fade-left" class="col-6  "><img id="mainpic" src="./images/main.png" alt="" height="500px"></div>
+
+      </div>
+    </div>
+
+     <!-- OUR Services -->
+
+    <div id="#Services" class="container text-center">
+        <div class="row align-items-start">
+          <div class="col"><p data-aos="fade-right" id="p2">------Our Services-----</p><h2 data-aos="fade-left" id="h2">Explore Our Services</h2>
+          </div>
+
+          <div  id="card1" class="container ">
+            <div class="row">
+                <div data-aos="fade-up"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine" class="col">
+                  <div  class="card" style="width: 18rem;">
+                    <div class="shadow p-3 bg-body-tertiary rounded">
+                    <div class="card-body">
+                        <i class="fa-solid fa-user-tie" style="color:orange;font-size: 35px;"></i>  
+                      <h5 class="card-title">Master Chefs</h5>
+                      <p class="card-text">A Certified Master Chef has proven their mastery of cooking techniques by passing a rigorous 8-day under strict examination</p>
+                      
+                    </div>
+                </div>
+
+                  </div></div>
+                <div data-aos="fade-up"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine" class="col"><div class="card" style="width: 18rem;">
+                    <div class="shadow p-3 bg-body-tertiary rounded">
+                    <div class="card-body">
+                        <i class="fa-solid fa-utensils" style="color:orange;font-size: 35px;"></i>
+                      <h5 class="card-title">Quality Food</h5>
+                      <p class="card-text">Typically, the term food quality represents the sum of all properties and attributes of a food item that are acceptable to the customer.</p>
+                      
+                    </div>
+                </div>
+
+                  </div></div>
+                <div data-aos="fade-up"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine" class="col"><div class="card" style="width: 18rem;">
+                    <div class="shadow p-3 bg-body-tertiary rounded">
+                    <div class="card-body">
+                        <i class="fa-solid fa-cart-plus" style="color:orange;font-size: 35px;"></i>
+                      <h5  class="card-title">Online Order</h5>
+                      <p class="card-text">They are often used to facilitate takeaway or delivery orders they can also be implemented inside a restaurant for  table ordering.</p>
+                      
+                    </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div data-aos="fade-up"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine" class="col"><div class="card" style="width: 18rem; ">
+                    <div class="shadow p-3  bg-body-tertiary rounded">
+                    <div class="card-body">
+                        <i class="fa-solid fa-mobile-screen-button" style="color:orange; font-size: 35px; "></i>
+                      <h5 class="card-title">24/7 Service</h5>
+                      <p class="card-text">Restaurant service is a series of components that work together to provide customers with a pleasant and satisfying dining experience.</p>
+                      
+                    </div>
+                </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+
+          <!-- About US -->
+
+          <div style="margin-top: 50px;" class="container  ">
+           <div class="row">
+        <div  data-aos="fade-right" class="col"><img src="./images/rest 2.jpg" id="img1" alt=""> <img src="./images/rest 1.jpg" id="img2"> <br>
+
+            <img src="./images/rest4.jpg" id="img3" alt=""> <img src="./images/rest3.png" id="img4" alt="">
+        </div>
+
+        <div  class="col "><p data-aos="fade-left" id="about">About Us-----</p>
+            <h3 data-aos="fade-right" id="h3">Welcome to <i class="fa-solid fa-utensils" style="color:orange;"></i> Restoran</h3>
+            <p data-aos="fade-up" style="font-size: 15px; text-align: left;"> Restaurants know the importance of a strong first impression. It's why they invest in exterior design, decorate their entranceways and train hosts to welcome guests with a warm smile. </p>
+
+            <br>
+            <p data-aos="fade-up"  style="font-size: 15px; text-align: left;"> Nowadays, however, more than 70% of diners visit a restaurant's website before deciding where to dine, which means the first impression happens long before they set foot on-premises. It happens online. And when it does, the restaurant description plays a pivotal role.</p>
+            
+            <div>
+            <div class="vl"><p id="year"><span style="color: orange; font-size: 25px; font-weight: bold;">15</span> Years of <br> <span style="font-weight: bold;">  Experience</span></p>
+                
+                <div class="vl2"><p id="chefs"><span style="color: orange; font-size: 25px; font-weight: bold;">50</span> Popular <br> <span style="font-weight: bold;">Master Chefs</span></p>
+                    </div>
+                    <div data-aos="fade-right"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine" ><button class="btn" type="submit" style="background-color: orange; color: aliceblue; margin-right: 510px; margin-top: 20px; border-radius: 5px;">Read More</button></div>
+               
+        </div>
+           </div> 
+          </div>
+
+          <!-- Food Menu -->
+
+          <div class="container"><p data-aos="zoom-in" id="foodmenu">-----Food Menu-----</p> <h4 data-aos="zoom-in" id="h4">Most Popular Items</h4></div>
+            <div id="menu" class="container text-center ">
+                <div data-aos="fade-up"
+                data-aos-duration="2000" class="row">
+                  <div style="margin-left: 400px;" class="col order-first">
+                    <i class="fa-solid fa-mug-hot" style="color: orange;font-size: 15px;"></i>
+                    <p style="font-weight: 500;">Popular Breakfast</p>
+                  </div>
+
+                  <div class="col">
+                    <i class="fa-solid fa-burger" style="color: orange;font-size: 15px;"></i>
+                  <p style="font-weight: 500;">Special Lunch</p> 
+                  </div>
+
+                  <div style="margin-right: 300px;" class="col order-last">
+                    <i class="fa-solid fa-utensils" style="color:orange;font-size: 15px;"></i>
+                   <p style="font-weight: 500;">Lovely Dinner</p> 
+                  </div>
+                </div>
+              </div>
+              <hr style="margin-top: 20px; width: 600px; margin-left: 400px; height: 1.5px; color: rgb(81, 79, 79);">
+
+              <div class="container">
+                <div class="row">
+                    <div data-aos="fade-right"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine" class="col"> <img style="margin-right: 200px; margin-top: 20px;" src="./images/dish 1.png" alt=""><br>
+                        <img style="margin-right: 200px; margin-top: 50px;" src="./images/dish2.png" alt=""><br> 
+                        <img style="margin-right: 200px; margin-top: 50px;" src="./images/dish6.png" alt=""><br>
+                   <img style="margin-right: 200px; margin-top: 50px" src="./images/dish 4.png" alt="">
+                 </div>
+
+                 <div data-aos="fade-up"
+                 data-aos-duration="1000" class="col"> <p style=" font-weight: bold; margin-top: 20px; text-align: left; font-size: 15px;">Chicken Steak <span style="color: orange; margin-left: 70px;">$500</span> </p> <hr style="width: 230px; margin-bottom: 10px;"><p style="font-size: 10px; text-align: left; ">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> <br>
+                  <p style=" font-weight: bold; text-align: left; font-size: 15px;">Chicken Grill <span style="color: orange;margin-left: 80px; ;">$300</span> </p> <hr style="width: 230px; margin-bottom: 10px;"><p style="font-size: 10px; text-align: left; ">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> <br>
+                  <p style=" font-weight: bold; text-align: left; font-size: 15px;">Chicken BBQ <span style="color: orange; margin-left: 80px;">$400</span> </p> <hr style="width: 230px; margin-bottom: 10px;"><p style="font-size: 10px; text-align: left; ">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> <br>
+                  <p style=" font-weight: bold; text-align: left; font-size: 15px;">Garlic Chicken <span style="color: orange; margin-left: 70px;;">$600</span> </p> <hr style="width: 230px; margin-bottom: 10px;"><p style="font-size: 10px; text-align: left; ">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> <br>
+                 
+                </div>
+
+
+                    <div data-aos="fade-left"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine" id="threecol" class="col">
+                      <img style=" margin-top: 20px; margin-right: 350px;" src="./images/dish5.jpeg" alt=""><br>
+                        <img style=" margin-top: 60px; margin-right: 350px;" src="./images/dish7.jpeg" alt=""><br>
+                        <img style=" margin-top: 60px; margin-right: 350px;" src="./images/dish 3.png" alt=""><br>
+                        <img style=" margin-top: 60px; margin-right: 350px;" src="./images/dish8.jpeg" alt="">
+                    </div>
+
+                    <div data-aos="fade-up"
+                    data-aos-duration="1000" class="col"> <p style=" font-weight: bold; margin-top: 20px; text-align: left; font-size: 15px;">Chicken Rolls<span style="color: orange; margin-left: 80px;;">$600</span> </p> <hr style="width: 230px; margin-bottom: 10px;"><p style="font-size: 10px; text-align: left; ">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> <br>
+                        <p style=" font-weight: bold; text-align: left; font-size: 15px;">Chicken Creamy Pasta <span style="color: orange; margin-left: 20px;">$550</span> </p> <hr style="width: 230px; margin-bottom: 10px;"><p style="font-size: 10px; text-align: left; ">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> <br>
+                        <p style=" font-weight: bold; text-align: left; font-size: 15px;">cheese piza <span style="color: orange; margin-left: 0px;">$700</span> </p> <hr style="width: 230px; margin-bottom: 10px;"><p style="font-size: 10px; text-align: left; ">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> <br>
+                        <p style=" font-weight: bold; text-align: left; font-size: 15px;">Chicken Roast <span style="color: orange; margin-left: 70px;">$1200</span> </p> <hr style="width: 230px; margin-bottom: 10px;"><p style="font-size: 10px; text-align: left; ">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> <br>
+                       
+                      </div>   
+                </div>  
+              </div>
+
+              <!-- Reservation -->
+
+              <div style="height: 600px; " data-aos="fade-left" class="container ">
+                <div class="row g-3">
+                 <div style="margin-top: 50px;" data-aos="fade-right" class="col "> <iframe width="650px" height="500px" src="https://www.youtube.com/embed/fgys9psxNYI?si=tAcKfNnsxflPKpkK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div> 
+
+                 <div data-aos="fade-left" style="margin-top: 50px;  background-color: rgb(20, 20, 110);" class="col "><p id="reser">-----Reservation-----</p> <h6 id="booking">Book A Table Online</h6> 
+                 <form>
+        
+                  <input style="height: 30px; width: 210px; border-radius: 10px; margin-top: 10px;" type="text" class="form-control" placeholder="Your Name" aria-label="Your name">
+               <input style="height: 30px; width: 210px; border-radius: 10px; margin-top: 10px;" type="text" class="form-control" placeholder="Your Email" aria-label="Last name">
+               <br>
+               <input style="height: 30px; width: 210px; border-radius: 10px; margin-top: 20px;" type="text" class="form-control" placeholder="Day & Time" aria-label="Last name"> 
+               <select  style="height: 50px; width: 210px; margin-top: 20px; border-radius: 10px;" class="form-select"  aria-label="Default select example">
+                
+                <option selected> No of People</option>
+                <option value="1">People 2</option>
+                <option value="2">People 3</option>
+                <option value="3">People 4</option>
+              </select>
+             <br>
+             <div class="form-floating">
+              <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 40px; width: 400px;  margin-top: 5px;"></textarea></div>
+              <br>
+              <button style="width:500px; margin-right:50px ; color: aliceblue;text-align: center; border-radius: 5px;" type="button" class="btn btn-warning">BOOK NOW</button>
+            </form>
+            </div>
+                </div>
+                </div>
+              </div>
+              
+              <!-- Team Members -->
+              <div style="margin-top: 480px;" class="container">
+                <p data-aos="fade-right" id="team">-----Team Members-----</p> <h5 data-aos="fade-left" style="font-size: 30px;font-weight: bolder; ">Our Master Chefs</h5>
+                <div class="row">
+                  <div data-aos="fade-up"
+                     data-aos-offset="300"
+                         data-aos-easing="ease-in-sine" class="col">
+                      <div class="card" style="width: 18rem;">
+                        <div class="shadow p-3  bg-body-tertiary rounded">
+                        <img style="width: 200px; height: 200px;" src="./images/chef5.jpg" class="card-img-top rounded-circle"  >
+                        <div class="card-body">
+                          <p class="card-text"><h6 style="font-weight: bolder;"> Chef John </h6><p style="font-weight: 600;">Executive chef.</p></p>
+                          <i  class="fa-brands fa-facebook" style="color: orange; margin-right: 20px;font-size: 25px;"></i> <i class="fa-brands fa-twitter" style="color:orange;margin-right: 20px; font-size: 25px;"></i> <i class="fa-brands fa-instagram" style="color: orange;font-size: 25px;"></i>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+
+                     <div data-aos="fade-up"
+                     data-aos-offset="300"
+                         data-aos-easing="ease-in-sine" class="col">
+                      <div class="card" style="width: 18rem;">
+                        <div class="shadow p-3  bg-body-tertiary rounded">
+                          <img style="width: 200px; height: 200px;" src="./images/chef23.jpg" class="card-img-top rounded-circle"  >
+                        
+                        <div class="card-body">
+                          <p class="card-text"><h6 style="font-weight: bolder;" >Chef John</h6><p style="font-weight: 600;">Head chef.</p></p>
+                          <i  class="fa-brands fa-facebook" style="color: orange; margin-right: 20px;font-size: 25px;"></i> <i class="fa-brands fa-twitter" style="color:orange;margin-right: 20px; font-size: 25px;"></i> <i class="fa-brands fa-instagram" style="color: orange;font-size: 25px;"></i>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+
+                     <div data-aos="fade-up"
+                     data-aos-offset="300"
+                         data-aos-easing="ease-in-sine"  class="col"><div class="card" style="width: 18rem;">
+                        <div class="shadow p-3  bg-body-tertiary rounded">
+                          <img style="width: 200px; height: 200px;" src="./images/chef43.jpg" class="card-img-top rounded-circle"  >
+                        <div class="card-body">
+                          <p class="card-text"><h6 style="font-weight: bolder;" >Chef John</h6><p style="font-weight: 600;">Roast chef. </p></p>
+                          <i  class="fa-brands fa-facebook" style="color: orange; margin-right:20px; font-size: 25px;"></i> <i class="fa-brands fa-twitter" style="color:orange;margin-right: 20px; font-size: 25px;"></i> <i class="fa-brands fa-instagram" style="color: orange;font-size: 25px;"></i>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                    
+                     <div data-aos="fade-up"
+                     data-aos-offset="300"
+                         data-aos-easing="ease-in-sine" style=" margin-bottom: 40px;" class="col"><div class="card" style="width: 18rem;">
+                        <div class="shadow p-3  bg-body-tertiary rounded">
+                          <img style="width: 200px; height: 200px;" src="./images/chef89.jpg" class="card-img-top rounded-circle"  >
+                        <div class="card-body">
+                          <p class="card-text"><h6 style="font-weight: bolder;" >Chef John</h6><p style="font-weight: 600;">Sous chef.</p> </p>
+                          <i  class="fa-brands fa-facebook" style="color: orange; margin-right: 20px;font-size: 25px;"></i> <i class="fa-brands fa-twitter" style="color:orange;margin-right: 20px; font-size: 25px;"></i> <i class="fa-brands fa-instagram" style="color: orange;font-size: 25px;"></i>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                </div>
+                </div>
+
+                 <!-- Testimonials -->
+                  
+                  <div class="container"> <p  data-aos="fade-right" id="testi">-----Testimonial-----</p> <p  data-aos="fade-left" style="font-size: 35px; font-weight: 700;">Our Clients Say!!!</p>
+                    <div class="row">
+
+                      <div  data-aos="fade-right" 
+                      data-aos-offset="300"
+                      data-aos-easing="ease-in-sine"style="margin-top: 20px; margin-bottom: 40px;" class="col"><div class="card" style="width: 18rem;">
+                        <div class="shadow p-3  bg-body-tertiary rounded">
+                          <p style="font-weight: 600;"> <span style="color: orange; font-size: 20px;">"</span>The food was absolutely amazing! Every dish we ordered was delicious and beautifully presented. The ingredients were fresh, and the flavors were perfectly balanced<span style="color: orange; font-size: 20px;">"</span></p>
+                          <hr style="color: orange; height: 1.5px;">
+                        <div class="card-body">
+                          <img style="width: 70px; height: 70px;" src="./images/cl2.jpg" class="card-img-top rounded-circle"> <p style="font-weight: 600;">Miss Helena <p >IT Expert</p> </p>
+                          
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+
+                    <div  data-aos="fade-right"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine" style="margin-top: 20px; margin-bottom: 40px;" class="col"><div class="card" style="width: 18rem;">
+                      <div class="shadow p-3  bg-body-tertiary rounded">
+                        <p style="font-weight: 600;"> <span style="color: orange; font-size: 20px;">"</span>The food was absolutely amazing! Every dish we ordered was delicious and beautifully presented. The ingredients were fresh, and the flavors were perfectly balanced<span style="color: orange; font-size: 20px;">"</span></p>
+                        <hr style="color: orange; height: 1.5px;">
+                      <div class="card-body">
+                        <img style="width: 70px; height: 70px;" src="./images/cl3.jpeg" class="card-img-top rounded-circle"> <p style="font-weight: 600;">Mr John <p >Oral Surgeon</p> </p>
+                        
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+
+                  <div  data-aos="fade-left"
+                  data-aos-offset="300"
+                  data-aos-easing="ease-in-sine" style="margin-top: 20px; margin-bottom: 40px;" class="col"><div class="card" style="width: 18rem;">
+                    <div class="shadow p-3  bg-body-tertiary rounded">
+                      <p style="font-weight: 600;"> <span style="color: orange; font-size: 20px;">"</span>The food was absolutely amazing! Every dish we ordered was delicious and beautifully presented. The ingredients were fresh, and the flavors were perfectly balanced<span style="color: orange; font-size: 20px;">"</span></p>
+                      <hr style="color: orange; height: 1.5px;">
+                    <div class="card-body">
+                      <img style="width: 70px; height: 70px;" src="./images/cl4.jpg" class="card-img-top rounded-circle"> <p style="font-weight: 600;">Mr Abraham <p >Biotechnologist</p> </p>
+                      
+                    </div>
+                  </div>
+                </div>
+                </div>
+
+                <div  data-aos="fade-left" 
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine"style="margin-top: 20px; margin-bottom: 40px;" class="col"><div class="card" style="width: 18rem;">
+                  <div class="shadow p-3  bg-body-tertiary rounded">
+                    <p style="font-weight: 600;"> <span style="color: orange; font-size: 20px;">"</span>The food was absolutely amazing! Every dish we ordered was delicious and beautifully presented. The ingredients were fresh, and the flavors were perfectly balanced<span style="color: orange; font-size: 20px;">"</span></p>
+                    <hr style="color: orange; height: 1.5px;">
+                  <div class="card-body">
+                    <img style="width: 70px; height: 70px;" src="./images/cl1.jpg" class="card-img-top rounded-circle"> <p style="font-weight: 600;">Miss Helena <p >Softwere Engineer </p></p>
+                    
+                  </div>
+                </div>
+              </div>
+              </div>   
+                    </div>
+                  </div>
+                  <!-- footer -->
+                   
+                   <div id="footer" class="container-fluid "> 
+                    <div class="row">
+                     <div  class="col"><h6 id="company">Company-----</h6>
+                      <p style="color: aliceblue;"> >About us</p> <br> 
+                      <p style="color: aliceblue;">>Contact  us</p> <br>
+                      <p style="color: aliceblue;">>Reservation </p><br> 
+                      <p style="color: aliceblue;">>Privacy Policy</p> <br> 
+                      <p style="color: aliceblue;">>Terms & Condition</p>
+                      </div>
+                     
+                     <div class="col"><h6 id="cont">Contact-----</h6>
+                     <p style="color: aliceblue;"><i class="fa-solid fa-location-dot" style="color: orange;"></i>123 Street, M.A Jinnah Road,Okara</p> <br>
+                     <p style="color: aliceblue;"><i class="fa-solid fa-phone" style="color:orange;"></i>10301-3456789</p> <br>
+                     <p style="color: aliceblue;"><i class="fa-solid fa-envelope" style="color: orange;"></i>info@example.com</p> <i  class="fa-brands fa-facebook" style="color: orange; margin-right: 20px;font-size: 25px;"></i> <i class="fa-brands fa-twitter" style="color:orange;margin-right: 20px; font-size: 25px;"></i> <i class="fa-brands fa-instagram" style="color: orange;font-size: 25px;"></i>
+                    </div>
+
+                     <div class="col"><h6 id="opening">Opening-----</h6>
+                     <p style="color: aliceblue;">Monday-Saturday</p> <br>
+                     <p style="color: aliceblue;">9AM-10PM</p> <br>
+                     <p style="color: aliceblue;">Sunday</p> <br>
+                     <p style="color: aliceblue;">10AM-8PM</p> <br>
+                    </div>
+
+                     <div class="col"><h6 id="newsletter">Newsletter-----</h6>
+                      <p style="color: aliceblue;">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                         <br>
+                         <div>
+                         <input type="text" placeholder=" Your Email">
+                         <button style="background-color: orange;" >Sign Up</button>
+                        </div>
+                    
+                    </div> 
+                    <hr style="color: aliceblue;">
+                    <div class="col"><p style="color: aliceblue;margin-right:300px">@2024-AllRights Reserved</p><br>
+                      <p style="color: aliceblue; margin-right:300px">Designed By <a href="HS Developer">HS Developer</a></p>
+                    </div>
+
+                    <div class="col"><p style="color: aliceblue;">Home| Cookies| FQAs</p></div>
+                    </div>
+                   </div>
+
+                   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({
+            offset: 200,
+            duration: 600,
+          });
+        </script>
+                   
+                  
+        
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</body>
+</html>
